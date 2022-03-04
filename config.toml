@@ -1,0 +1,49 @@
+baseURL = "https://github.com/geoytopo/pagina.git"
+languageCode = "en-us"
+title = "Desarrollo, Geomática y Topografía"
+themesDir = "themes"
+theme = "hugo-serif-theme"
+
+[params]
+  # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = "G-V8FLBM79DZ"
+  google_tag_manager_id = ""
+
+  [params.logo]
+    mobile = "images/logo-mobile.svg"
+    standard  = "images/logo.svg"
+    alt = "Desarrollo, Geomática y Topografía"
+
+  [params.homepage_meta_tags]
+    meta_description = "Sitio web de Desarrollo Geomática y Topografía, se describen servicios que brindamos y datos de contacto."
+    meta_og_title = "geoytopo"
+    meta_og_type = "website"
+    meta_og_url = "http://geoytopo.com"
+    meta_og_image = "http://geoytopo.com/images/tn.png"
+    meta_og_description = "Sitio web de Desarrollo Geomática y Topografía, se describen servicios que brindamos y datos de contacto."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@geoytopo"
+    meta_twitter_creator = "@geoytopo"
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+    name = "Servicios"
+    url = "/services/"
+      weight = 1
+
+  [[menu.main]]
+      name = "Equipo"
+      url = "/team/"
+      weight = 2
+
+  # Footer Menus
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Contacto"
+    url = "/contact/"
+      weight = 2
